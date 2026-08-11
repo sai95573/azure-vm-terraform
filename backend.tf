@@ -6,5 +6,7 @@ terraform {
     storage_account_name = "testingazurestaging54321"
     container_name       = "myblobs"
     key                  = "terraform.tfstate"
+
+    use_oidc = true
   }
 }
